@@ -1,14 +1,8 @@
 import Checkbox from "./Checkbox";
 import { useCheck } from "@/utils/hooks";
 import styles from "@/styles/tableRow.module.css";
+import { Row } from "../../types/global";
 
-type Row = {
-  name: string;
-  device: string;
-  path: string;
-  status: string;
-  id?: string;
-};
 function TableRow({ row, id }: { row: Row; id: string }) {
   const { check } = useCheck();
 

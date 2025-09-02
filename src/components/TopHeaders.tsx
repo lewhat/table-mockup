@@ -4,8 +4,9 @@ import styles from "@/styles/topHeaders.module.css";
 import Checkbox from "@/components/Checkbox";
 import Dialog from "@/components/Dialog";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import { Data } from "../../types/global";
 
-function TopHeaders({ data }: { data: unknown }) {
+function TopHeaders({ data }: { data: Data }) {
   const { check } = useCheck();
   const [checkCount, setCheckCount] = useState(0);
   const [toBeDownloaded, setToBeDownloaded] = useState([]);

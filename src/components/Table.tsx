@@ -1,7 +1,8 @@
 import styles from "@/styles/table.module.css";
 import TableRow from "@/components/TableRow";
+import { Data } from "../../types/global";
 
-function Table({ headers, data }) {
+function Table({ headers, data }: { headers: string[]; data: Data }) {
   return (
     <table className={styles.table}>
       <thead>
