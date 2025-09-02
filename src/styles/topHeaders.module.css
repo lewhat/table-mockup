@@ -1,0 +1,32 @@
+.topHeaderContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.selectAll {
+  width: 20%;
+  text-transform: capitalize;
+}
+
+.icon {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #f3f4f7;
+}
+
+.marginLeft {
+  margin-left: 20px;
+}

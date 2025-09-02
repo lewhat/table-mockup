@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+}
+
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dialog h2 {
+  margin-bottom: 20px;
+}
+
+.dialog p {
+  margin: 10px 0;
+}
+
+.close {
+  position: absolute;
+  text-align: jkj;
+  right: 10px;
+  bottom: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #6c789d;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.close:hover {
+  background-color: #f3f4f7;
+}

@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 32px;
+  grid-row-start: 2;
+}
+
+.container {
+  margin: auto;
+  min-width: 1200px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
