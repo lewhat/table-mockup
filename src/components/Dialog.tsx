@@ -1,7 +1,15 @@
 import { useRef, useEffect } from "react";
 import styles from "@/styles/dialog.module.css";
 
-function Dialog({ isOpen, onClose, children }) {
+function Dialog({
+  isOpen,
+  onClose,
+  children,
+}: {
+  isOpen: boolean;
+  onClose: () => void;
+  children: React.ReactNode;
+}) {
   const dialogRef = useRef(null);
 
   useEffect(() => {
