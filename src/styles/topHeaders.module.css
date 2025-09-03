@@ -1,6 +1,8 @@
 .topHeaderContainer {
   display: flex;
   padding: 10px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .selectAll {
